@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Management System</title>
+</head>
+<body>
+	<header >	
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<!-- Other navigation links -->
+				<li><a href="/logout">Logout</a></li> <!-- Logout link -->
+			</ul>
+		</nav>
+	</header>
+	<div class="content">
+		<!-- Content of individual pages will go here -->
+		<div th:replace="~{${content}}">
+		</div>
+	</div>
+</body>
+</html>
